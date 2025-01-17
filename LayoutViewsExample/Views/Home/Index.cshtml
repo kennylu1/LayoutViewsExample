@@ -1,10 +1,15 @@
 ﻿<h1>Home</h1>
 
-<button class="button button-blue-back" type="button">Load Programming Languages
-
-
-
+<button class="button button-blue-back" type="button" id="button-load">Load Programming Languages
 </button>
+
+<script>
+	document.querySelector("#button-load").addEventListener("click",function(){ var response= await
+	fetch("programming-languages")
+	response.body
+	});
+
+</script>
 
 
 @* @{ *@
